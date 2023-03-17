@@ -29,7 +29,7 @@ int _prime_checker(int n, int i)
 {
 	if (i == 1)
 		return (1);
-	else if (n % i == 0)
+	else if (n % i == 0 && > 0)
 		return (0);
 	else
 		return (_prime_checker(n, i - 1));
